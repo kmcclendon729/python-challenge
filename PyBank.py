@@ -55,7 +55,7 @@ print(max_decr)
 print(min_mo)
 
 # specify where to output a new text file containing the results
-output_file = os.path.join("Analysis", "PyBank_Output.txt")
+output_file = os.path.join("Analysis", "budget_analysis.txt")
 
 # Open a text file using "write" mode
 with open(output_file, "w") as txtfile:
